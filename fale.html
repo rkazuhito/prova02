@@ -19,8 +19,13 @@
         <a href="#">Curiosidades</a>
     </nav>
     <main>
+        <h1>Cadastro</h1>
+        <p>Faça o cadastro e envie sua dúvida: <br></p>
         <form action="fale.php" method="post">
-            login: <input type="text" name="login">
+            Nome: <input type="text" name="nome" required>
+            Email <input type="email" name="email" required>
+            sexo:<input type=text name=sexo required maxlength=1>
+            altura:<input type=text name=altura required>
             <input type="submit" name="botao" value="ENVIAR">
 
         </form>

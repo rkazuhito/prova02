@@ -20,7 +20,7 @@
     </nav>
     <main>
         <?php
-            $login=$_POST["login"];
+            $nome=$_POST["nome"];
             echo $login;
         ?>
     </main>
