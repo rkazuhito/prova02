@@ -19,22 +19,23 @@
         <a href="curiosidades.html">Curiosidades</a>
     </nav>
     <main>
+        <h2>Aqui está sua mensagem:</h2>
         <?php
             $nome=$_POST['nome'];
             $email=$_POST['email'];
             $cel=$_POST['cel'];
             $hora=$_POST['hora'];
             $data=$_POST['data'];
-            $password=$_POST['password']
-            $musica=$_POST['musica']
-            $sexo=$_POST['sexo']
-            $estado=$_POST['estado']
-            $mensagem=$_POST['msg']
-             <textarea name="msg" id="" cols="50" rows="10"></textarea>
-             <br>
-             Nivel de contentamento: 0<input type="range" name="contente" min="1" max="100">100
-             <br>
-             <input style="display: block; margin: auto; font-size: 1.2em;" type="submit" name="botao" value="ENVIAR">
+            $password=$_POST['password'];
+            $musica=$_POST['musica'];
+            $sexo=$_POST['sexo'];
+            $estado=$_POST['estado'];
+            $cidade=$_POST['cidade;']
+            $mensagem=$_POST['msg'];
+            $contente=$_POST['contente'];
+            echo "Mensagem enviada por: $nome , de $cidade no estado $estado , as $hora do dia $data <br>";
+            echo $mensagem. "<br>";
+
         ?>
     </main>
     <footer>
