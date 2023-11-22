@@ -14,7 +14,7 @@
     </header>
     <nav>
         <a href="index.html">Home</a>
-        <a href="fale.html">Fale Conosco</a>
+        <a href="fale.html">Newsletter</a>
         <a href="vetor.html">Vetores</a>
         <a href="curiosidades.html">Curiosidades</a>
     </nav>
@@ -30,12 +30,15 @@
             $musica=$_POST['musica'];
             $sexo=$_POST['sexo'];
             $estado=$_POST['estado'];
-            $cidade=$_POST['cidade;']
-            $mensagem=$_POST['msg'];
+            $cidade=$_POST['cidade'];
+            $insta=$_POST['insta'];
             $contente=$_POST['contente'];
-            echo "Mensagem enviada por: $nome , de $cidade no estado $estado , as $hora do dia $data <br>";
-            echo $mensagem. "<br>";
-
+            echo "Obrigado $nome , de $cidade no estado do $estado , você está fazendo parte da nossa Newsletter a partir de $hora do dia $data <br>";
+            if ($contente>50) {
+                echo ":)";
+            }else {
+                echo ":(";
+            }
         ?>
     </main>
     <footer>
