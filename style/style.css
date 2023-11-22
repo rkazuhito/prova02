@@ -54,6 +54,7 @@ main a:hover{
     text-decoration: underline;
     background-color: var(--cor3);
 }
+
 header{
 
     background-image: linear-gradient(to bottom, var(--cor1), var(--cor5));
