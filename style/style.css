@@ -54,14 +54,12 @@ main a:hover{
     text-decoration: underline;
     background-color: var(--cor3);
 }
-
 header{
 
     background-image: linear-gradient(to bottom, var(--cor1), var(--cor5));
     min-height: 150px;
     text-align: center;
     padding-top: 40px;
-    
 }
 header>h1{
     color: white;
